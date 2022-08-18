@@ -9,6 +9,17 @@
   padding: 0 !important;
 }
 
-.navbar-collapse {
-  flex-grow: 0 !important;
+.navbar {
+  padding: 20px 80px;
+}
+
+.wrapper {
+  padding: 48px 0 !important;
+}
+
+.product-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(268px, 1fr));
+  padding: 48px 80px !important;
+  gap: 30px;
 }
